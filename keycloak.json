@@ -1,0 +1,12 @@
+{
+  "realm": "keycloak-nodejs-auth",
+  "auth-server-url": "https://localhost:8443/auth/",
+  "ssl-required": "external",
+  "resource": "nodejs-auth-client",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "4160a886-ed4c-4f86-ae04-1929b65f281b"
+  },
+  "confidential-port": 0,
+  "policy-enforcer": {}
+}

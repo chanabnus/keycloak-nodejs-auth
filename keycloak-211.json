@@ -1,0 +1,13 @@
+{
+  "realm": "keycloak-nodejs-auth",
+  "auth-server-url": "https://9.178.216.221:8443/auth/",
+  "ssl-required": "external",
+  "resource": "nodejs-auth-client",
+  "verify-token-audience": true,
+  "credentials": {
+    "secret": "izIquG2v5VBkK8A66hRoAg3dQtJqjbil"
+  },
+  "use-resource-role-mappings": true,
+  "confidential-port": 0,
+  "policy-enforcer": {}
+}
