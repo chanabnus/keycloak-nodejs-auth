@@ -9,14 +9,17 @@ Keycloak Nodejs Auth
 
 ## Getting Started
 ## For Local Development:
+### Prerequsites
+- Keycloak open source identity and access management.
+- [Keycloak Official Page](https://www.keycloak.org/)
+- Configured keycloak realm.
+
 ### Terminal Commands
 1. Install NodeJs from [NodeJs Official Page](https://nodejs.org/en).
 2. Open a Console Terminal.
 3. Navigate to the project folder.
-4. Install app denpendency prep before proceed: 
-    ### `npm install`
-5. Runs the app in the development mode:
-    ### `npm start`
+4. Install app denpendency prep: $ `npm install`
+5. Runs the app in the development mode: $ `npm start`
 6. Open Chrome web browser with url: ```https://127.0.0.1:5013/```
 7. App fires up as-is.
 
