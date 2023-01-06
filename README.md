@@ -4,14 +4,12 @@ Keycloak Nodejs Auth
 ![version-badge](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![license-badge](https://img.shields.io/badge/license-IBM-blue.svg)
 
-<!-- ![app dashboard](server/coverpage/home.jpg) -->
-
 
 ## Getting Started
 ## For Local Development:
 ### Prerequsites
 - Keycloak open source identity and access management.
-- [Keycloak Official Page](https://www.keycloak.org/)
+    - [Keycloak Official Page](https://www.keycloak.org/)
 - Configured keycloak realm.
 
 ### Terminal Commands
@@ -22,6 +20,11 @@ Keycloak Nodejs Auth
 5. Runs the app in the development mode: $ `npm start`
 6. Open Chrome web browser with url: ```https://127.0.0.1:5013/```
 7. App fires up as-is.
+
+#
+![app dashboard](static/images/page1.jpg)
+![app dashboard](static/images/page2.jpg)
+![app dashboard](static/images/page3.jpg)
 
 <!-- helm install -->
 <!-- oc login console-openshift-console.apps.ocp4p.sg.ibm.com:6443
