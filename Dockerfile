@@ -30,8 +30,8 @@ RUN npm install
 ENV NODE_ENV production
 
 # Expose the port on which the app will be running
-EXPOSE 5014
+EXPOSE 5011
 
 # Start the app
 CMD [ "npm", "start" ]
-USER 105014
+USER 105011
