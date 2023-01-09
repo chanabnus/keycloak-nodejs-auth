@@ -18,7 +18,7 @@ Keycloak Nodejs Auth
 3. Navigate to the project folder.
 4. Install app denpendency prep: $ `npm install`
 5. Runs the app in the development mode: $ `npm start`
-6. Open Chrome web browser with url: ```https://127.0.0.1:5013/```
+6. Open Chrome web browser with url: ```http://pont.sg.ibm.com:5011/```
 7. App fires up as-is.
 
 #
