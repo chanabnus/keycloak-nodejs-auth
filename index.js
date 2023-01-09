@@ -94,7 +94,7 @@ app.use((err, req, res, next) => {
 });
 
 
-const server = app.listen(5011, 'point.sg.ibm.com', () => {
+const server = app.listen(5011, '127.0.0.1', () => {
     const host = server.address().address;
     const port = server.address().port;
 
