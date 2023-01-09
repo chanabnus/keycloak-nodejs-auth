@@ -5,9 +5,8 @@
   "resource": "nodejs-auth-client",
   "verify-token-audience": true,
   "credentials": {
-    "secret": "izIquG2v5VBkK8A66hRoAg3dQtJqjbil"
+    "secret": "Qx4VJvdeEGmk9cQHU15vMAl7sQiz2dYT"
   },
-  "use-resource-role-mappings": true,
   "confidential-port": 0,
   "policy-enforcer": {}
 }
