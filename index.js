@@ -94,9 +94,9 @@ app.use((err, req, res, next) => {
 });
 
 
-const server = app.listen(5011, '127.0.0.1', () => {
-    const host = server.address().address;
+const server = app.listen(5011, () => {
+    // const host = server.address().address;
     const port = server.address().port;
 
-    console.log('Application running at http://%s:%s', host, port);
+    console.log('Application running at port: %s', port);
 });
